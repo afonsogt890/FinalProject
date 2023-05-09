@@ -27,15 +27,22 @@ const userSchema = mongoose.Schema({
         default: "This user hasn't wrote anything yet..."
     },
 
+    admin: {
+        type:Boolean,
+        default: false
+    },
+
     languages: [
         {
-            name:{type:String, require:true, unique:true},
+            type:String, require:true,
             language: {
                 type: mongoose.Schema.Types.ObjectId,
-                require:true,
+                required:true,
                 ref:"Languages"
             }
         }
     ]
-
 })
+
+const Users = mongoose.model("Users", userSchema);
+export default Users;
