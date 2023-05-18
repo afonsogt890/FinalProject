@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import bycrypt from "bcryptjs";
 
 const userSchema = mongoose.Schema({
     name: {
@@ -34,15 +35,26 @@ const userSchema = mongoose.Schema({
 
     languages: [
         {
-            type:String, require:true,
+            type:String,
+            default: "Portuguese",
             language: {
                 type: mongoose.Schema.Types.ObjectId,
-                required:true,
                 ref:"Languages"
             }
         }
     ]
 })
+
+userSchema.methods.matchPassword = async function(pass){
+    return await bycrypt.compare(pass, this.password);
+}
+
+userSchema.pre("save", async function(next){
+    if (!this.isModified("password")) next();
+    const salt = await bycrypt.genSalt(10);
+    this.password = await bycrypt.hash(this.password, salt);
+})
+
 
 const Users = mongoose.model("Users", userSchema);
 export default Users;
