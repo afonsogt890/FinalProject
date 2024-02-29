@@ -13,7 +13,7 @@ const gamesSchema = mongoose.Schema({
 
     desc: {
         type:String,
-        default: "This games has no description for now..."
+        default: "This game has no description for now..."
     }
 },{timestamps:true});
 

@@ -1,7 +1,9 @@
 import mongoose from "mongoose";
+import dotenv from 'dotenv';
+dotenv.config({path: '../.env'});
 
 const connectdb = async() => {
-    const clientkey = "mongodb+srv://afonsolanca:LnlkftyYjnRtJH00@project.idumupc.mongodb.net/?retryWrites=true&w=majority"
+    const clientkey = process.env['clientKey'];
 
     try {
         mongoose.set("strictQuery", false);
@@ -10,7 +12,7 @@ const connectdb = async() => {
             useUnifiedTopology: true,
         });
     } catch (Error) {
-        console.log(`Error: ${Error.message}`)
+        console.log(`Error: ${Error.message}`);
         process.exit(1);
     }
 }
