@@ -4,6 +4,7 @@ import languageRouter from "./Routes/Language/Route/languageRoute.js";
 import userRouter from "./Routes/User/Route/userRoute.js";
 import gamesRouter from "./Routes/Games/Route/gamesRoute.js";
 
+
 const app = express(); //Variavel pra chamar uma função do express
 const port = 3001;
 

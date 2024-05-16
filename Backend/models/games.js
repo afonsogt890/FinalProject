@@ -14,7 +14,13 @@ const gamesSchema = mongoose.Schema({
     desc: {
         type:String,
         default: "This games has no description for now..."
+    },
+
+    categorie: {
+        type:String,
+        require:true
     }
+
 },{timestamps:true});
 
 const Games = mongoose.model("Games", gamesSchema);

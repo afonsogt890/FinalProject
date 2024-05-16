@@ -1,7 +1,7 @@
 import express from "express";
 import asyncHandler from "express-async-handler";
 import languageData from "../languageData.js";
-import Languages from "../../../models/language.js";
+import Languages from "../../../Models/language.js";
 
 const languageRouter = express.Router();
 

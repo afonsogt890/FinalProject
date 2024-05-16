@@ -19,7 +19,7 @@ const userData = [
         name: "KillerWhale",
         password: bycrypt.hashSync("wahler354", 10),
         email: "bigwhale@gmail.com",
-        desc: "HEY!!!! LETS GO PLAY SOME VALO, SHALL WE? CHEERS MY FRIENDS!!!",
+        desc: "HEY!!!! LETS GO PLAY SOME VALO AND LEAGUE, SHALL WE? CHEERS MY FRIENDS!!!",
         languages: ["English","Portuguese"]
     },
     {
