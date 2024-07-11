@@ -1,5 +1,13 @@
+body {
+  background-color: #242424;
+}
+
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #242424;;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -8,8 +16,6 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    margin: 0; 
-    padding: 0;
   }
   
   .navbar-container {
@@ -17,9 +23,7 @@
     justify-content: center;
     align-items: center;
     height: 120px;
-    width: 100%;
     max-width: 1600px;
-    padding: 0 20px;
   }
   
   .navbar-logo {
@@ -33,11 +37,6 @@
     align-items: center;
   }
   
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-  }
-  
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -45,22 +44,10 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: right;
+    justify-content:right;
     margin-right: 2rem;
-    margin: 0;
-    padding: 0;
   }
 
-  .nav-menu-mobile {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    margin-right: 2rem;
-  }
-  
   .nav-item {
     height: 80px;
   }
@@ -97,6 +84,7 @@
     }
   
     .nav-menu {
+      color:#242424;
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -139,7 +127,7 @@
     .menu-icon {
       display: block;
       position: absolute;
-      top: 20px;
+      top: 0;
       right: 0;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

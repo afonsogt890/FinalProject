@@ -1,0 +1,33 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Social icons */
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  /* Clickable words */
+  .clickable-words {
+    margin-bottom: 20px;
+  }
+  
+  .clickable-words a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Copyright text */
+  .copyright {
+    font-size: 14px;
+  }

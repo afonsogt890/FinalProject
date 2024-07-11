@@ -16,3 +16,4 @@ app.use("/api/language", languageRouter)
 app.use("/api/user", userRouter)
 app.use("/api/games", gamesRouter)
 app.listen(port, console.log(`server port: ${port}`));
+

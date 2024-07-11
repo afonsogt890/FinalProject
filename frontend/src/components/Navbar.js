@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import {Link} from "react-router-dom";
-import { Button } from './Button';
+import React, {useState, useEffect} from 'react';
+import { Link } from "react-router-dom";
+import { ButtonL, ButtonS } from './Button';
 import './Navbar.css';
 
 function Navbar() {
@@ -18,13 +18,17 @@ function Navbar() {
     }
   };
 
+  useEffect(()=> {
+    showButton();
+  }, [])
+
   window.addEventListener('resize', showButton);
 
   return (
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <Link to="/" className="navbar-logo">
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 <img src='../images/logo.png' alt='Logo'></img>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -52,8 +56,8 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
-            {button && <Button buttonStyle='btn--outline'>LOGIN</Button>} 
+            {button && <ButtonS buttonStyle='btn--outline'>SIGN UP</ButtonS>}
+            {button && <ButtonL buttonStyle='btn--outline'>LOGIN</ButtonL>} 
         </div>
     </nav>
     </>

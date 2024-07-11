@@ -1,0 +1,64 @@
+.about-section {
+    background-image: url('/public/images/img-home.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    object-fit: contain;
+}
+
+.about-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.about-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 960px) {
+    .about-content {
+        max-width: 80%;
+        padding: 15px;
+    }
+
+    .about-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        max-width: 90%;
+    }
+
+    .about-content h1 {
+        font-size: 4rem;
+    }
+
+    .about-content p {
+        font-size: 1.2rem;
+    }
+}

@@ -8,6 +8,11 @@
     outline: none;
     border: none;
     cursor: pointer;
+    box-shadow:
+    -2px -2px 0 #000, 
+    2px -2px 0 #000,  
+    -2px 2px 0 #000,  
+    2px 2px 0 #000;
 }
 
 .btn--primary {
@@ -25,12 +30,18 @@
 }
 
 .btn--medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 8px 20px;
     font-size: 20px;
     margin-right: 20px;
 }
 
 .btn--large {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 12px 26px;
     font-size: 20px;
 }

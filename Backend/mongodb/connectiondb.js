@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+//Estabelecer uma conexão ao MongoDB
+
 const connectdb = async() => {
     const clientkey = "mongodb+srv://afonsolanca:LnlkftyYjnRtJH00@project.idumupc.mongodb.net/?retryWrites=true&w=majority"
 
@@ -16,3 +18,4 @@ const connectdb = async() => {
 }
 
 export default connectdb;
+
