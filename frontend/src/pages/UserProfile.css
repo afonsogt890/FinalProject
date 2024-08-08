@@ -1,0 +1,121 @@
+.game1-icon10,
+.valorant1 {
+  position: absolute;
+  left: 0;
+  width: 278px;
+}
+.valorant1 {
+  top: 363px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+}
+.game1-icon10 {
+  top: 0;
+  height: 365px;
+  object-fit: cover;
+}
+.apex-legends1,
+.game-1-group,
+.game-2-group,
+.game-group-3 {
+  position: absolute;
+  top: 98px;
+  left: 303px;
+  width: 278px;
+  height: 409px;
+}
+.apex-legends1,
+.game-1-group,
+.game-group-3 {
+  left: 0;
+}
+.apex-legends1,
+.game-group-3 {
+  top: 101px;
+  left: 606px;
+}
+.apex-legends1 {
+  top: 365px;
+  left: 0;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+}
+.game-group-4 {
+  position: absolute;
+  top: 101px;
+  left: 908px;
+  width: 278px;
+  height: 407px;
+}
+.games1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 568px);
+  font-size: var(--font-size-25xl);
+  line-height: 150%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 303px;
+  height: 65px;
+}
+.game-section,
+.user-profile-detail {
+  position: absolute;
+  top: 414px;
+  left: 0;
+  width: 1186px;
+  height: 510px;
+}
+.user-profile-detail {
+  top: 256px;
+  left: 367px;
+  height: 924px;
+}
+.icon-to-return-to-previous-pag1 {
+  position: absolute;
+  top: 135px;
+  left: 333px;
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.user-profile2 {
+  position: absolute;
+  top: 122px;
+  left: calc(50% - 568px);
+  font-size: var(--font-size-25xl);
+  line-height: 150%;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 249px;
+  height: 65px;
+}
+.user-profile1 {
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1296px;
+  overflow: hidden;
+}
+.user-profile {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 1636px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

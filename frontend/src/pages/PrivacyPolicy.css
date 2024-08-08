@@ -1,0 +1,48 @@
+.privacy-policy1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 62px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.g2m-privacy-policy-effective {
+  margin: 0;
+}
+.g2m-privacy-policy-effective-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subheading-size);
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+  height: 2845px;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.privs {
+  position: absolute;
+  width: 68.85%;
+  top: 53px;
+  right: 15.63%;
+  left: 15.52%;
+  height: 2907px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.privacy-policy {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 3006px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

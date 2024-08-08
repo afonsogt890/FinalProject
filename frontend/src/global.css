@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --small-text: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --small-text-size: 16px;
+  --font-size-xl: 20px;
+  --font-size-24xl: 43px;
+  --font-size-21xl: 40px;
+  --font-size-17xl: 36px;
+  --font-size-60xl: 79px;
+  --font-size-mini: 15px;
+  --subheading-size: 24px;
+  --font-size-2xl: 21px;
+  --font-size-25xl: 44px;
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-whitesmoke-100: #faf9f9;
+  --color-whitesmoke-200: #f3f1f1;
+  --color-white: #fff;
+  --color-mediumslateblue: #836be8;
+  --color-black: #000;
+  --color-gray-100: #fefefe;
+  --color-gray-200: #828282;
+  --color-gray-300: rgba(0, 0, 0, 0.64);
+  --color-darkslategray: #3e3e3e;
+  --color-royalblue-100: #7676eb;
+  --color-cornflowerblue: #4f90f1;
+  --color-gainsboro: #e6e6e6;
+  --color-steelblue: #559fc0;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-111xl: 130px;
+  --br-9xs: 4px;
+  --br-15xl: 34px;
+  --br-10xs: 3px;
+  --br-189xl: 208px;
+  --br-68xl: 87px;
+  --br-lgi: 19px;
+  --br-69xl: 88px;
+
+  /* Effects */
+  --button-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}

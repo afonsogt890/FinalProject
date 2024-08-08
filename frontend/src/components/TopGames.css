@@ -1,0 +1,84 @@
+.game2-selection-child {
+  position: absolute;
+  top: calc(50% - 207.15px);
+  left: calc(50% - 166.2px);
+  width: 331.7px;
+  height: 426px;
+  object-fit: contain;
+}
+.game2-icon {
+  position: absolute;
+  top: 0;
+  left: 0.3px;
+  width: 332.1px;
+  height: 415.3px;
+  object-fit: cover;
+}
+.game2-selection {
+  position: absolute;
+  top: calc(50% - 134.7px);
+  left: calc(50% + 276.1px);
+  width: 332.4px;
+  height: 437.7px;
+}
+.game1-selection-child {
+  position: absolute;
+  top: calc(50% - 207.15px);
+  left: calc(50% - 166.05px);
+  width: 331.7px;
+  height: 426px;
+  object-fit: contain;
+}
+.game1-icon14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 332.1px;
+  height: 415.3px;
+  object-fit: cover;
+}
+.game1-selection {
+  position: absolute;
+  top: calc(50% - 134.7px);
+  left: calc(50% - 608.5px);
+  width: 332.1px;
+  height: 437.7px;
+}
+.game1-selection-item {
+  position: absolute;
+  top: calc(50% - 207.15px);
+  left: calc(50% - 165.55px);
+  width: 331.7px;
+  height: 426px;
+  object-fit: contain;
+}
+.game1-selection1 {
+  position: absolute;
+  top: calc(50% - 134.7px);
+  left: calc(50% - 166px);
+  width: 332.5px;
+  height: 437.7px;
+}
+.most-searched-games {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 288.5px);
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 565.4px;
+  height: 156px;
+}
+.top-games {
+  position: absolute;
+  top: calc(50% + 51.5px);
+  left: calc(50% - 608.5px);
+  width: 1217px;
+  height: 606px;
+  text-align: center;
+  font-size: var(--font-size-24xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}

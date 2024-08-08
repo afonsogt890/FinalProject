@@ -1,0 +1,160 @@
+.username {
+  white-space: pre-wrap;
+}
+.frenchtoast {
+  font-weight: 200;
+}
+.span2 {
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.username-frenchtoast {
+  position: absolute;
+  top: 29px;
+  left: 33px;
+  line-height: 150%;
+  display: inline-block;
+  width: 299px;
+  height: 44px;
+}
+.languagues {
+  margin: 0;
+}
+.span3 {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  white-space: pre-wrap;
+}
+.email-ouibaguettegmailcom,
+.image,
+.languagues-french-portuguese-container,
+.oui-je-sui,
+.password1 {
+  position: absolute;
+  top: 29px;
+  left: 696px;
+  line-height: 150%;
+  display: inline-block;
+  width: 364px;
+  height: 114px;
+}
+.email-ouibaguettegmailcom,
+.image,
+.oui-je-sui,
+.password1 {
+  top: 143px;
+  width: 89px;
+  height: 44px;
+}
+.email-ouibaguettegmailcom,
+.oui-je-sui,
+.password1 {
+  top: 73px;
+  left: 33px;
+  width: 318px;
+}
+.email-ouibaguettegmailcom,
+.oui-je-sui {
+  top: 117px;
+  width: 382px;
+}
+.oui-je-sui {
+  top: 24px;
+  left: 23px;
+  font-weight: 300;
+  width: 541px;
+  height: 285px;
+}
+.icont-to-edit-description {
+  position: absolute;
+  top: 24px;
+  left: 531px;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+.description-text-input-box {
+  position: absolute;
+  top: 234px;
+  left: 33px;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 591px;
+  height: 339px;
+  overflow: hidden;
+}
+.description {
+  position: absolute;
+  top: 194px;
+  left: 42px;
+  line-height: 150%;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 401px;
+  height: 40px;
+}
+.profile-picture-current {
+  position: absolute;
+  top: 221px;
+  left: 756px;
+  border-radius: var(--br-189xl);
+  width: 349px;
+  height: 349px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.save-icon {
+  position: absolute;
+  top: 20px;
+  left: 1168px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.icon-to-edit-password,
+.icon-to-edit-username {
+  position: absolute;
+  top: 37px;
+  left: 555px;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+.icon-to-edit-password {
+  top: 73px;
+}
+.icon-to-edit-email,
+.icon-to-edit-languages,
+.profile-picture-edit-icon {
+  position: absolute;
+  top: 110px;
+  left: 555px;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+.icon-to-edit-languages,
+.profile-picture-edit-icon {
+  top: 34px;
+  left: 1060px;
+}
+.profile-picture-edit-icon {
+  top: 143px;
+  left: 791px;
+  width: 39px;
+  height: 39px;
+}
+.login-content1 {
+  position: absolute;
+  top: calc(50% - 340.5px);
+  left: calc(50% - 615px);
+  border-radius: var(--br-15xl);
+  background-color: var(--color-white);
+  width: 1230px;
+  height: 598px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

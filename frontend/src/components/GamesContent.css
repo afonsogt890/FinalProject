@@ -1,0 +1,76 @@
+.games3 {
+  position: absolute;
+  top: 26px;
+  left: calc(50% - 593.5px);
+  font-size: var(--font-size-25xl);
+  line-height: 150%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 303px;
+  height: 65px;
+}
+.game1-icon16,
+.league-of-legends3 {
+  position: absolute;
+  left: 0;
+  width: 278px;
+}
+.league-of-legends3 {
+  top: 363px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 46px;
+}
+.game1-icon16 {
+  top: 0;
+  height: 365px;
+  object-fit: cover;
+}
+.game-1,
+.game-2,
+.game-3,
+.game-4,
+.group10 {
+  position: absolute;
+  top: 104px;
+  left: 33px;
+  width: 278px;
+  height: 409px;
+}
+.game-2,
+.game-3,
+.game-4,
+.group10 {
+  left: 336px;
+}
+.game-3,
+.game-4,
+.group10 {
+  top: 0;
+  left: 0;
+}
+.game-3,
+.game-4 {
+  top: 107px;
+  left: 639px;
+}
+.game-4 {
+  left: 942px;
+}
+.games-content {
+  position: absolute;
+  top: calc(50% - 326px);
+  left: calc(50% - 615px);
+  border-radius: var(--br-15xl);
+  background-color: var(--color-white);
+  width: 1253px;
+  height: 542px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

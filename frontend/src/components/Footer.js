@@ -1,29 +1,37 @@
-import React from 'react';
-import './Footer.css';
-import { Link } from 'react-router-dom';
+import { useMemo } from "react";
+import PropTypes from "prop-types";
+import "./Footer.css";
 
-function Footer() {
-    return (
-        <footer class="footer">
-            <div class="social-icons">
-                <Link to="/"><i class="fab fa-facebook"></i></Link>
-                <Link to="/"><i class="fab fa-twitter"></i></Link>
-                <Link to="/"><i class="fab fa-instagram"></i></Link>
-                <Link to="/"><i class="fab fa-youtube"></i></Link>
-                <Link to="/"><i class="fab fa-linkedin"></i></Link>
-            </div>
-  
-            <div class="clickable-words">
-                <Link to='/privacypolicy'>Privacy Policy</Link>
-                <Link to='/aboutus'>About us</Link>
-                <Link to='/tos'>Terms of Service</Link>
-            </div>
-  
-            <div class="copyright">
-             © All rights reserved G2M, Inc. 2024
-            </div>
-        </footer>
-    )
-}
+const Footer = ({ className = "", allRightsReservedLeft }) => {
+  const footerStyle = useMemo(() => {
+    return {
+      left: allRightsReservedLeft,
+    };
+  }, [allRightsReservedLeft]);
+
+  return (
+    <div className={`footer ${className}`} style={footerStyle}>
+      <div className="all-rights-reserved">
+        All rights reserved. G2M, Inc 2024
+      </div>
+      <div className="terms-of-service2">Terms of Service</div>
+      <div className="privacy-policy2">Privacy Policy</div>
+      <img className="logo-icon2" alt="" src="/logo@2x.png" />
+      <div className="social-icons">
+        <img className="buttons-icon" alt="" src="/buttons--icon@2x.png" />
+        <img className="buttons-icon" alt="" src="/buttons--icon1@2x.png" />
+        <img className="buttons-icon" alt="" src="/buttons--icon2@2x.png" />
+        <img className="buttons-icon" alt="" src="/buttons--icon3@2x.png" />
+      </div>
+    </div>
+  );
+};
+
+Footer.propTypes = {
+  className: PropTypes.string,
+
+  /** Style props */
+  allRightsReservedLeft: PropTypes.any,
+};
 
 export default Footer;

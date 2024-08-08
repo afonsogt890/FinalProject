@@ -1,0 +1,54 @@
+.dont-have-an {
+  font-weight: 600;
+}
+.span {
+  font-weight: 500;
+}
+.dont-have-an-container {
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: inline-block;
+  width: 303px;
+  cursor: pointer;
+}
+.dont-have-an-container,
+.login-page-send,
+.login1 {
+  position: absolute;
+  height: 38px;
+}
+.login1 {
+  top: 0;
+  left: 325px;
+  text-decoration: underline;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+  width: 93px;
+  cursor: pointer;
+}
+.login-page-send {
+  top: 1198px;
+  left: 735px;
+  width: 418px;
+}
+.sign-up-form {
+  position: absolute;
+  top: calc(50% - 680.5px);
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1301px;
+  overflow: hidden;
+}
+.register {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 1641px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

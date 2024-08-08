@@ -1,0 +1,73 @@
+.graphic-icon1,
+.user-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.user-1-child {
+  border-radius: var(--br-68xl) var(--br-lgi) var(--br-lgi) var(--br-lgi);
+  background-color: var(--color-gainsboro);
+  width: 498px;
+  height: 229px;
+}
+.graphic-icon1 {
+  border-radius: var(--br-111xl);
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.rank {
+  margin: 0;
+  font-weight: 500;
+}
+.bronze-2 {
+  margin: 0;
+  font-weight: 200;
+}
+.rank-bronze-2-container1 {
+  width: 100%;
+}
+.rank-bronze-2-container {
+  top: 39px;
+  left: 182px;
+  width: 134px;
+  height: 72px;
+}
+.kallysin,
+.rank-bronze-2-container,
+.thanks-to-g2m1 {
+  position: absolute;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.kallysin {
+  top: 184px;
+  left: 37px;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  width: 112px;
+  height: 27px;
+}
+.thanks-to-g2m1 {
+  top: 100px;
+  left: 182px;
+  font-size: var(--font-size-sm);
+  font-weight: 300;
+  width: 315px;
+  height: 159px;
+}
+.user-1 {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 498px;
+  height: 259px;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

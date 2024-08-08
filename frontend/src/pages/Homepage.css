@@ -1,0 +1,247 @@
+.about-us1,
+.g2m-is-an {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-us1 {
+  font-weight: 800;
+  height: 94px;
+  mix-blend-mode: normal;
+}
+.g2m-is-an {
+  font-size: var(--font-size-17xl);
+  font-weight: 300;
+  white-space: pre-wrap;
+  text-align: justify;
+  height: 324px;
+}
+.about-us-section {
+  width: 1338px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.image-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 185px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 296px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ceo {
+  margin: 0;
+  font-weight: 600;
+}
+.afonso-lana {
+  margin: 0;
+  color: #5d7be6;
+}
+.ceo-afonso-lana-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  height: 114px;
+  flex-shrink: 0;
+}
+.picture {
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 32px;
+}
+.about-us,
+.best-lfg-platform {
+  position: absolute;
+  display: flex;
+}
+.about-us {
+  top: 1613px;
+  left: 73px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 86px;
+}
+.best-lfg-platform {
+  top: 0;
+  right: 0.4px;
+  align-items: center;
+  width: 1166.2px;
+  height: 105px;
+}
+.best-lfg-platform,
+.create-account-now,
+.gamers {
+  line-height: 150%;
+  font-weight: 800;
+}
+.gamers {
+  position: absolute;
+  top: 105px;
+  right: 0.4px;
+  background: linear-gradient(
+    118.33deg,
+    rgba(35, 191, 249, 0.54),
+    rgba(63, 167, 244, 0.77) 12.53%,
+    #5a8ff0 24.69%,
+    #7875eb 37.71%,
+    #935de6 50%,
+    #ab48e2 63.84%,
+    #bf37de 75.66%,
+    rgba(211, 38, 219, 0.89) 87.58%,
+    rgba(233, 19, 215, 0.78)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  width: 697.8px;
+  height: 80px;
+}
+.create-account-now {
+  position: relative;
+}
+.login-button {
+  position: absolute;
+  top: 220px;
+  right: 0.1px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 396.3px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: 22px;
+}
+.call-out,
+.herosection1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1166.6px;
+  height: 272px;
+}
+.herosection1 {
+  top: 79px;
+  right: 126.4px;
+}
+.herosection {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 1920px;
+  height: 1473px;
+  overflow: hidden;
+  text-align: right;
+}
+.logo-icon {
+  width: 267px;
+  position: relative;
+  height: 89px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.about-us2 {
+  font-weight: 600;
+}
+.about-us2,
+.login,
+.sign-up {
+  position: relative;
+  line-height: 150%;
+}
+.sign-up {
+  width: 89px;
+  font-weight: 600;
+  color: var(--color-mediumslateblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.login {
+  font-weight: 500;
+}
+.items,
+.login-button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.login-button1 {
+  width: 73px;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    71.49deg,
+    rgba(35, 191, 249, 0.54),
+    rgba(63, 167, 244, 0.77) 27%,
+    #935de6 50%,
+    rgba(211, 38, 219, 0.89) 75%,
+    rgba(233, 19, 215, 0.78)
+  );
+  height: 33px;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+  font-family: var(--small-text);
+}
+.items {
+  width: 312px;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  cursor: pointer;
+}
+.homepage,
+.navigation {
+  width: 100%;
+  overflow: hidden;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-white);
+  height: 139px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 2335px;
+  text-align: left;
+  font-size: var(--font-size-60xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

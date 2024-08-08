@@ -1,0 +1,147 @@
+.elden-ring,
+.games {
+  position: absolute;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.games {
+  top: 116px;
+  left: calc(50% - 593px);
+  width: 303px;
+  height: 65px;
+}
+.elden-ring {
+  top: 363px;
+  left: 0;
+  justify-content: center;
+  width: 278px;
+  height: 46px;
+}
+.game1-icon {
+  top: 0;
+  left: 0;
+  height: 365px;
+  object-fit: cover;
+}
+.game1-icon,
+.group,
+.group1 {
+  position: absolute;
+  width: 278px;
+}
+.group {
+  top: 0;
+  left: 908px;
+  height: 409px;
+}
+.group1 {
+  left: 605px;
+}
+.group1,
+.group2,
+.group3 {
+  top: 0;
+  height: 409px;
+}
+.group2 {
+  position: absolute;
+  left: 303px;
+  width: 278px;
+}
+.group3 {
+  left: 0;
+  cursor: pointer;
+}
+.apex-legends,
+.group3,
+.group4 {
+  position: absolute;
+  width: 278px;
+}
+.apex-legends {
+  top: 365px;
+  left: 0;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+}
+.group4 {
+  top: 476px;
+  left: 908px;
+  height: 407px;
+}
+.group5 {
+  top: 476px;
+  left: 605px;
+  height: 409px;
+}
+.call-of-duty,
+.group5,
+.group6 {
+  position: absolute;
+  width: 278px;
+}
+.call-of-duty {
+  top: 364px;
+  left: 0;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+.group6 {
+  top: 476px;
+  left: 303px;
+  height: 408px;
+}
+.games-selection,
+.group7,
+.group8,
+.group9 {
+  position: absolute;
+  top: 476px;
+  left: 0;
+  width: 278px;
+  height: 409px;
+}
+.games-selection,
+.group8,
+.group9 {
+  top: 952px;
+  left: 303px;
+}
+.games-selection,
+.group9 {
+  left: 0;
+}
+.games-selection {
+  top: 238px;
+  left: 367px;
+  width: 1186px;
+  height: 1319px;
+  text-align: center;
+  font-size: var(--subheading-size);
+}
+.games-section {
+  position: absolute;
+  top: 140px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1641px;
+  overflow: hidden;
+}
+.page-games {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 1980px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-25xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

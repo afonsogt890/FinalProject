@@ -1,0 +1,79 @@
+.about-us3 {
+  font-weight: 600;
+}
+.about-us3,
+.login4,
+.sign-up3 {
+  position: relative;
+  line-height: 150%;
+}
+.sign-up3 {
+  width: 89px;
+  font-weight: 600;
+  color: var(--color-mediumslateblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.login4 {
+  font-weight: 500;
+}
+.items1,
+.login-button3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-button3 {
+  width: 73px;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    71.49deg,
+    rgba(35, 191, 249, 0.54),
+    rgba(63, 167, 244, 0.77) 27%,
+    #935de6 50%,
+    rgba(211, 38, 219, 0.89) 75%,
+    rgba(233, 19, 215, 0.78)
+  );
+  height: 33px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+  font-family: var(--small-text);
+}
+.items1 {
+  position: absolute;
+  top: 55px;
+  right: 68px;
+  background-color: var(--color-white);
+  width: 312px;
+  gap: var(--gap-xl);
+}
+.logo-icon5 {
+  position: absolute;
+  top: 23px;
+  left: 50px;
+  width: 267px;
+  height: 89px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navigation1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-white);
+  height: 140px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

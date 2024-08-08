@@ -1,0 +1,76 @@
+.chat-button1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-69xl);
+  background-color: var(--color-steelblue);
+  width: 144px;
+  height: 53px;
+}
+.chat {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 66px);
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 35px;
+}
+.chat-button {
+  position: absolute;
+  top: 32px;
+  left: 967px;
+  width: 144px;
+  height: 53px;
+  text-align: center;
+  color: var(--color-white);
+}
+.i-love-play,
+.kallysin1,
+.portuguesespanish {
+  position: absolute;
+  left: calc(50% - 239.5px);
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 484px;
+  height: 65px;
+}
+.kallysin1 {
+  top: 20px;
+  font-size: var(--font-size-17xl);
+}
+.i-love-play,
+.portuguesespanish {
+  top: 68px;
+  font-weight: 100;
+}
+.i-love-play {
+  top: 166px;
+  font-size: var(--subheading-size);
+  font-weight: 300;
+  height: 63px;
+}
+.profile-picture-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-111xl);
+  width: 266px;
+  height: 266px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.user-card {
+  position: absolute;
+  top: 19px;
+  left: 12px;
+  width: 1111px;
+  height: 266px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

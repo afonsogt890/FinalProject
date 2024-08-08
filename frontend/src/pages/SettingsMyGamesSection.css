@@ -1,0 +1,68 @@
+.settings {
+  top: 251px;
+  left: calc(50% - 596px);
+  justify-content: center;
+  width: 121px;
+  cursor: pointer;
+}
+.my-games,
+.profile1,
+.settings {
+  position: absolute;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.my-games {
+  top: 251px;
+  left: calc(50% - 457px);
+  font-weight: 800;
+  color: var(--color-royalblue-100);
+  justify-content: center;
+  width: 142px;
+}
+.profile1 {
+  top: 151px;
+  left: calc(50% - 615px);
+  font-size: var(--font-size-25xl);
+  font-weight: 500;
+  text-align: left;
+  width: 145px;
+}
+.icon-to-return-to-previous-pag {
+  position: absolute;
+  top: 164px;
+  left: 296px;
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.icon-save-edit {
+  position: absolute;
+  top: 366px;
+  left: 1529px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.mygame-section {
+  position: absolute;
+  top: calc(50% - 680.5px);
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 1296px;
+  overflow: hidden;
+}
+.settings-mygames-section {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  height: 1641px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
